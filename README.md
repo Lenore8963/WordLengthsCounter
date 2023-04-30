@@ -2,6 +2,11 @@
 
 This Java class, `WordLengths`, helps to count the frequency of word lengths in a text file. It provides a method `countWordLengths` to process a `FileResource` object and store the word length frequency in an integer array.
 
+This is a Coursera course assignment.
+Course:
+Java Programming: Arrays, Lists, and Structured Data
+https://www.coursera.org/learn/java-programming-arrays-lists-data?specialization=object-oriented-programming
+
 ## Usage
 
 1. Import the `edu.duke.*` library from the Duke University Java course [available here](https://www.dukelearntoprogram.com//downloads/archives/duke-java-2020.zip).
