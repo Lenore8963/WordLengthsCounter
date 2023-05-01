@@ -7,10 +7,10 @@ public class WordLengths {
             int length = word.length();
             char startWith = word.charAt(0);
             char endWith = word.charAt(length-1);
-            if (!Character.isLetter(startWith) ) {
+            if (length !=0 && !Character.isLetter(startWith) ) {
                 length--;
             } 
-            if (!Character.isLetter(endWith) ) {
+            if (length !=0 && !Character.isLetter(endWith) ) {
                 length--;
             }
             if (length < counts.length) {
